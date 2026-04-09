@@ -1,0 +1,719 @@
+QLabel#detailTitle {
+    color:#eef5ff;
+    font-size:22px;
+    font-weight:700;
+}
+
+QLabel#metricLabel {
+    color:#9fb5d4;
+    font-size:13px;
+}
+
+QLabel#valueBadge {
+    background:#0c1523;
+    border:1px solid #324764;
+    border-radius:16px;
+    color:#e0edff;
+    padding:6px 12px;
+    font-size:13px;
+    font-weight:600;
+}
+
+QFrame#detailCard {
+    background:#141e2d;
+    border:1px solid #28374c;
+    border-radius:24px;
+}
+
+QPushButton#primaryActionButton {
+    background:#2d5bd1;
+    border:1px solid #4577ef;
+    border-radius:16px;
+    color:#ffffff;
+    padding:8px 18px;
+    font-size:20px;
+    font-weight:600;
+}
+
+QPushButton#primaryActionButton:hover {
+    background:#3a6bf0;
+}
+
+QPushButton#secondaryActionButton {
+    background:#1b2a3f;
+    border:1px solid #334b6d;
+    border-radius:16px;
+    color:#f1f5ff;
+    padding:8px 18px;
+    font-size:20px;
+    font-weight:500;
+}
+
+QPushButton#secondaryActionButton:hover {
+    background:#233754;
+}
+
+
+#subclockMeasurementPage QFrame#subclockCard {
+    background:#0d1524;
+    border:1px solid #1f3148;
+    border-radius:18px;
+}
+
+#subclockMeasurementPage QFrame#metricTile {
+    background:#101928;
+    border:1px solid #24344c;
+    border-radius:16px;
+}
+
+#subclockMeasurementPage QLabel#metricCaption {
+    color:#90a7c7;
+    font-size:20px;
+}
+
+#subclockMeasurementPage QLabel#metricValue {
+    color:#eef5ff;
+    font-size:22px;
+    font-weight:700;
+}
+
+#subclockMeasurementPage QLabel#headerIcon {
+    color:#38bdf8;
+    font-size:18px;
+    font-weight:700;
+}
+
+#subclockMeasurementPage QLabel#headerTitle {
+    color:#eef5ff;
+    font-size:20px;
+    font-weight:800;
+}
+
+#subclockMeasurementPage QLabel#sectionTitle {
+    color:#eef5ff;
+    font-size:15px;
+    font-weight:700;
+}
+
+#subclockMeasurementPage QLabel#sectionHint {
+    color:#94a8c6;
+    font-size:12px;
+}
+
+#subclockMeasurementPage QLabel#detailText {
+    color:#dbe6f5;
+    font-size:13px;
+}
+
+#subclockMeasurementPage QLabel#legendText {
+    color:#9ab0ce;
+    font-size:16px;
+}
+
+#subclockMeasurementPage QFrame#sectionFrame {
+    background:#0b1220;
+    border:1px solid #22324a;
+    border-radius:18px;
+}
+
+#subclockMeasurementPage QTabBar::tab {
+    background:#101a2a;
+    color:#dce8f7;
+    border:1px solid #2a3d59;
+    border-bottom:none;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+    padding:8px 18px;
+    margin-right:4px;
+    min-width:96px;
+    max-width:120px;
+    font-size:13px;
+    font-weight:700;
+}
+
+#subclockMeasurementPage QTabBar::tab:selected {
+    background:#163762;
+    border-color:#60a5fa;
+    color:#ffffff;
+}
+
+#subclockMeasurementPage QTabBar::tab:hover:!selected {
+    background:#15253b;
+}
+
+#subclockMeasurementPage QTableWidget#pageTable {
+    background:#09111d;
+    color:#eef5ff;
+    border:1px solid #21314a;
+    border-radius:12px;
+    gridline-color:#22324a;
+}
+
+#subclockMeasurementPage QHeaderView::section {
+    background:#13243e;
+    color:#dce8f7;
+    border:none;
+    border-right:1px solid #22324a;
+    padding:8px 6px;
+    font-size:18px;
+    font-weight:700;
+}
+
+#subclockMeasurementPage QTableCornerButton::section {
+    background:#13243e;
+    border:none;
+}
+
+#subclockMeasurementPage QScrollBar:vertical {
+    background:#0b1220;
+    width:10px;
+    margin:0;
+}
+
+#subclockMeasurementPage QScrollBar::handle:vertical {
+    background:#24344c;
+    border-radius:5px;
+    min-height:24px;
+}
+
+
+
+
+#flowControlPage QPushButton#primaryActionButton,
+#flowControlPage QPushButton#secondaryActionButton {
+    min-height: 46px;
+    padding: 12px 26px;
+    font-size: 20px;
+    border-radius: 18px;
+}
+QWidget#flowToolbar QPushButton#primaryActionButton,
+QWidget#flowToolbar QPushButton#secondaryActionButton {
+    min-height: 24px;
+    padding: 12px 26px;
+    font-size: 20px;
+    border-radius: 18px;
+}
+
+#flowControlPage QLabel#flowSectionTitle {
+    color:#c6d8f2;
+    font-size:20px;
+    font-weight:700;
+    min-height:20px;
+    max-height:22px;
+    margin-top:0px;
+    margin-bottom:2px;
+}
+
+#flowControlPage QLabel#flowInfoLabel {
+    color:#c6d8f2;
+    font-size:20px;
+    font-weight:700;
+}
+
+#flowControlPage QLabel#flowInfoValue {
+    background:#0c1523;
+    border:1px solid #324764;
+    border-radius:16px;
+    color:#eef5ff;
+    padding:8px 14px;
+    font-size:20px;
+    font-weight:700;
+    min-width:112px;
+    min-height:20px;
+}
+
+#flowControlPage QLabel#flowStepsTitle {
+    color:#8fa8ca;
+    font-size:16px;
+    font-weight:600;
+    min-height:14px;
+    max-height:16px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+#flowControlPage QTableWidget#pageTable {
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#flowControlPage QTableWidget#pageTable::item {
+    padding: 10px 12px;
+}
+
+#flowControlPage QHeaderView::section {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 10px;
+}
+
+#flowControlPage QListWidget#simpleList {
+    font-size: 24px;
+    color: #dfeaff;
+    background: #081426;
+    border: 1px solid #223552;
+    border-radius: 12px;
+    outline: none;
+}
+
+#flowControlPage QListWidget#simpleList::item {
+    min-height: 32px;
+    padding: 6px 10px;
+}
+
+
+#offsetMeasurementPage QGroupBox#sectionBox {
+    background:#0d1524;
+    border:1px solid #22324a;
+    border-radius:18px;
+}
+
+#offsetMeasurementPage QFrame#offsetMetricBlock {
+    background:transparent;
+    border:none;
+}
+
+#offsetMeasurementPage QLabel#offsetMetricLabel {
+    color:#9fb5d4;
+    font-size:20px;
+    font-weight:600;
+}
+
+#offsetMeasurementPage QLabel#offsetMetricValue {
+    color:#eef5ff;
+    font-size:28px;
+    font-weight:700;
+}
+
+#offsetMeasurementPage QLabel#offsetModeLabel,
+#offsetMeasurementPage QLabel#offsetChartTitle {
+    color:#b8cae3;
+    font-size:20px;
+    font-weight:700;
+}
+
+#offsetMeasurementPage QRadioButton#offsetModeRadioButton {
+    color:#eef5ff;
+    font-size:20px;
+    font-weight:600;
+    spacing:10px;
+    padding:2px 4px;
+}
+
+#offsetMeasurementPage QRadioButton#offsetModeRadioButton::indicator {
+    width:22px;
+    height:22px;
+}
+
+#offsetMeasurementPage QRadioButton#offsetModeRadioButton::indicator:unchecked {
+    border:2px solid #7f93b2;
+    border-radius:11px;
+    background:#0a1320;
+}
+
+#offsetMeasurementPage QRadioButton#offsetModeRadioButton::indicator:hover:unchecked {
+    border-color:#9bb2d7;
+    background:#0d1827;
+}
+
+#offsetMeasurementPage QRadioButton#offsetModeRadioButton::indicator:checked {
+    border:2px solid #d7e4ff;
+    border-radius:11px;
+    background:#6d28d9;
+}
+
+#offsetMeasurementPage QRadioButton#offsetModeRadioButton::indicator:hover:checked {
+    background:#5b21b6;
+}
+
+#offsetMeasurementPage QPushButton#primaryActionButton,
+#offsetMeasurementPage QPushButton#secondaryActionButton {
+    min-height:46px;
+    padding:10px 52px;
+    font-size:20px;
+    border-radius:18px;
+}
+
+
+#powerManagementPage QLabel#powerMetricLabel {
+    color:#b7c9e2;
+    font-size:21px;
+    font-weight:600;
+}
+
+#powerManagementPage QLabel#powerMetricValue {
+    background:#0c1523;
+    border:1px solid #324764;
+    border-radius:16px;
+    color:#eef5ff;
+    padding:8px 12px;
+    font-size:18px;
+    font-weight:700;
+    min-width:104px;
+}
+
+#powerManagementPage QPushButton#primaryActionButton,
+#powerManagementPage QPushButton#secondaryActionButton {
+    min-height:54px;
+    padding:10px 22px;
+    font-size:20px;
+    border-radius:18px;
+}
+
+#powerManagementPage QGroupBox#sectionBox {
+    background:#0d1524;
+    border:1px solid #22324a;
+    border-radius:18px;
+    margin-top:12px;
+    padding-top:10px;
+}
+
+#powerManagementPage QGroupBox#sectionBox::title {
+    subcontrol-origin: margin;
+    left:16px;
+    padding:0 6px;
+    color:#b8cae3;
+    font-size:13px;
+    font-weight:600;
+}
+
+#powerManagementPage QLabel {
+    color:#eef5ff;
+}
+
+#powerManagementPage QDoubleSpinBox {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   SettingsPage
+   ========================= */
+QWidget#settingsPage QGroupBox#settingsSectionBox {
+    color: #e5efff;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #223a62;
+    border-radius: 14px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background: transparent;
+}
+QWidget#settingsPage QGroupBox#settingsSectionBox::title {
+    subcontrol-origin: margin;
+    left: 14px;
+    padding: 0 8px;
+    color: #c5d7f2;
+    background: transparent;
+}
+QWidget#settingsPage QLabel { color: #d7e7ff; }
+QWidget#settingsPage QLineEdit#settingsLineEdit {
+    font-size: 17px;
+    color: #f3f7ff;
+    background-color: #091427;
+    border: 1px solid #2b4b78;
+    border-radius: 11px;
+    padding: 9px 14px;
+}
+QWidget#settingsPage QLineEdit#settingsLineEdit:focus { border-color: #6f9ad6; }
+QWidget#settingsPage QComboBox#settingsComboBox {
+    font-size: 17px;
+    color: #f3f7ff;
+    background: transparent;
+    border: 1px solid #2b4b78;
+    border-radius: 10px;
+    padding: 6px 32px 6px 10px;
+}
+QWidget#settingsPage QComboBox#settingsComboBox:hover { border-color: #4d75a8; }
+QWidget#settingsPage QComboBox#settingsComboBox:focus { border-color: #6f9ad6; }
+QWidget#settingsPage QComboBox#settingsComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 26px;
+    border-left: 1px solid #2b4b78;
+    background: transparent;
+}
+QWidget#settingsPage QComboBox#settingsComboBox::down-arrow { image: none; width: 0px; height: 0px; }
+QWidget#settingsPage QListView#settingsComboListView {
+    font-size: 16px;
+    color: #f3f7ff;
+    background-color: #091427;
+    border: 1px solid #2b4b78;
+    outline: 0;
+    padding: 0px;
+    selection-background-color: #2e5686;
+    selection-color: #ffffff;
+}
+QWidget#settingsPage QListView#settingsComboListView::item {
+    min-height: 32px;
+    padding: 4px 12px;
+    border: none;
+    background-color: #091427;
+    color: #f3f7ff;
+}
+QWidget#settingsPage QListView#settingsComboListView::item:hover { background-color: #173154; }
+QWidget#settingsPage QListView#settingsComboListView::item:selected {
+    background-color: #2e5686;
+    color: #ffffff;
+}
+QWidget#settingsPage QSpinBox#settingsSpinBox {
+    font-size: 17px;
+    color: #f3f7ff;
+    background-color: #091427;
+    border: 1px solid #2b4b78;
+    border-radius: 11px;
+    padding: 7px 12px;
+}
+QWidget#settingsPage QSpinBox#settingsSpinBox:focus { border-color: #6f9ad6; }
+QWidget#settingsPage QPushButton#settingsBrowseButton {
+    font-size: 16px;
+    font-weight: 600;
+    color: #eaf2ff;
+    background-color: #16345e;
+    border: 1px solid #3c6db0;
+    border-radius: 11px;
+    padding: 8px 16px;
+}
+QWidget#settingsPage QPushButton#settingsBrowseButton:hover {
+    background-color: #1d4479;
+    border-color: #5d93e0;
+}
+QWidget#settingsPage QPushButton#settingsBrowseButton:pressed { background-color: #123155; }
+QWidget#settingsPage QPushButton#settingsPrimaryButton,
+QWidget#settingsPage QPushButton#settingsSecondaryButton {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 26px;
+    border-radius: 16px;
+}
+
+
+QWidget#settingsPage QPushButton#settingsPrimaryButton {
+    min-height: 58px;
+    min-width: 170px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2f67ff;
+    border: 1px solid #5d8cff;
+    border-radius: 16px;
+    padding: 12px 26px;
+}
+
+QWidget#settingsPage QPushButton#settingsPrimaryButton:hover {
+    background-color: #3f75ff;
+    border-color: #7ea3ff;
+}
+
+QWidget#settingsPage QPushButton#settingsPrimaryButton:pressed {
+    background-color: #2557df;
+    border-color: #4b77d6;
+}
+
+QWidget#settingsPage QPushButton#settingsSecondaryButton {
+    min-height: 58px;
+    min-width: 170px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #eaf2ff;
+    background-color: #183154;
+    border: 1px solid #35598a;
+    border-radius: 16px;
+    padding: 12px 26px;
+}
+
+QWidget#settingsPage QPushButton#settingsSecondaryButton:hover {
+    background-color: #22406b;
+    border-color: #5378ae;
+}
+
+QWidget#settingsPage QPushButton#settingsSecondaryButton:pressed {
+    background-color: #142b49;
+    border-color: #314f7b;
+}
+
+QWidget#settingsPage QPushButton#settingsBrowseButton {
+    min-height: 48px;
+    min-width: 110px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #eaf2ff;
+    background-color: #16345e;
+    border: 1px solid #3c6db0;
+    border-radius: 11px;
+    padding: 8px 16px;
+}
+
+QWidget#settingsPage QPushButton#settingsBrowseButton:hover {
+    background-color: #1d4479;
+    border-color: #5d93e0;
+}
+
+QWidget#settingsPage QPushButton#settingsBrowseButton:pressed {
+    background-color: #123155;
+}
+
+QMessageBox {
+    background-color: #0f1d35;
+}
+
+QMessageBox QLabel {
+    color: #eaf2ff;
+    font-size: 16px;
+}
+
+QMessageBox QPushButton {
+    min-width: 96px;
+    min-height: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #eaf2ff;
+    background-color: #183154;
+    border: 1px solid #35598a;
+    border-radius: 10px;
+    padding: 6px 16px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #22406b;
+    border-color: #5378ae;
+}
+
+QMessageBox QPushButton:pressed {
+    background-color: #142b49;
+}
+
+QMessageBox QFrame {
+    background-color: #0f1d35;
+}
+
+QMessageBox QWidget {
+    background-color: #0f1d35;
+}
+
+
+#subclockMeasurementPage QPushButton#subclockStartButton,
+#subclockMeasurementPage QPushButton#subclockResetButton,
+#subclockMeasurementPage QPushButton#subclockClearButton,
+#subclockMeasurementPage QPushButton#subclockExportButton {
+    min-height: 60px;
+    padding: 0 28px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 18px;
+}
+
+#subclockMeasurementPage QPushButton#subclockStartButton {
+    min-width: 178px;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #2d6df6, stop:1 #4f8cff);
+    border: 1px solid #78a8ff;
+    color: #ffffff;
+}
+
+#subclockMeasurementPage QPushButton#subclockStartButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #3a79ff, stop:1 #6699ff);
+}
+
+#subclockMeasurementPage QPushButton#subclockResetButton,
+#subclockMeasurementPage QPushButton#subclockClearButton,
+#subclockMeasurementPage QPushButton#subclockExportButton {
+    min-width: 162px;
+    background: #162437;
+    border: 1px solid #38506f;
+    color: #eef5ff;
+}
+
+#subclockMeasurementPage QPushButton#subclockResetButton:hover,
+#subclockMeasurementPage QPushButton#subclockClearButton:hover,
+#subclockMeasurementPage QPushButton#subclockExportButton:hover {
+    background: #21344d;
+}
+
+#subclockMeasurementPage QPushButton#zoomButton {
+    background: #18283d;
+    border: 1px solid #39516f;
+    border-radius: 14px;
+    color: #f4f8ff;
+    min-height: 46px;
+    padding: 0 18px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+#subclockMeasurementPage QPushButton#zoomButton:hover {
+    background: #223754;
+}
+
+#subclockMeasurementPage QLabel#sectionTitle {
+    color:#eef5ff;
+    font-size:20px;
+    font-weight:800;
+}
+
+#subclockMeasurementPage QLabel#detailText {
+    color:#e4edf9;
+    font-size:22px;
+    font-weight:600;
+}
+
+#dataManagementPage QPushButton#primaryActionButton {
+    background:#2d5bd1;
+    border:1px solid #4577ef;
+    border-radius:16px;
+    color:#ffffff;
+    padding:10px 22px;
+    font-size:20px;
+    font-weight:700;
+    min-height:46px;
+    min-width:120px;
+}
+
+#dataManagementPage QPushButton#secondaryActionButton {
+    background:#1b2a3f;
+    border:1px solid #334b6d;
+    border-radius:16px;
+    color:#f1f5ff;
+    padding:10px 22px;
+    font-size:20px;
+    font-weight:600;
+    min-height:46px;
+    min-width:120px;
+}
+
+#dataManagementPage QTabWidget#dataTabs::pane {
+    border: 1px solid #223552;
+    background: #081426;
+    border-radius: 10px;
+    top: -1px;
+}
+
+#dataManagementPage QTabBar::tab {
+    background: #14233a;
+    color: #dbe8ff;
+    border: 1px solid #2c4468;
+    border-bottom: none;
+    min-width: 150px;
+    min-height: 46px;
+    padding: 10px 22px;
+    margin-right: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#dataManagementPage QTabBar::tab:selected {
+    background: #1f3f73;
+    color: #ffffff;
+    border: 1px solid #4c86ff;
+    border-bottom: none;
+}
+
+#dataManagementPage QTabBar::tab:hover:!selected {
+    background: #18304f;
+}

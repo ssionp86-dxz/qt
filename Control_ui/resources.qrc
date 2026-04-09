@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/detailpages.qss</file>
+        <file>styles/main.qss</file>
+        <file>styles/previewcard.qss</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>resources/off.png</file>
+        <file>resources/on.png</file>
+        <file>resources/qiehuan.png</file>
+        <file>resources/tongbu.png</file>
+        <file>resources/power.png</file>
+        <file>resources/database.png</file>
+        <file>resources/flow.png</file>
+        <file>resources/offset.png</file>
+        <file>resources/setting.png</file>
+        <file>resources/subclock.png</file>
+        <file>resources/timing.png</file>
+    </qresource>
+</RCC>

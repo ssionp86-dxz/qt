@@ -1,0 +1,39 @@
+QFrame#previewCard {
+    background:#101925;
+    border:1px solid #243144;
+    border-radius:12px;
+}
+
+QFrame#previewCard[active="true"] {
+    border:2px solid #5b86ff;
+    background:#142132;
+}
+
+QFrame#previewCard:hover {
+    background:#152234;
+    border-color:#3f5f8a;
+}
+
+QLabel#previewIcon {
+    background:transparent;
+    border:none;
+    color:#dfe9ff;
+}
+
+QLabel#previewTitle {
+    color:#eef3fb;
+    font-size:24px;
+    font-weight:700;
+}
+
+QLabel#previewValue {
+    color:#eef3fb;
+    font-size:22px;
+    font-weight:600;
+}
+
+QLabel#previewMeta {
+    color:#eef3fb;
+    font-size:20px;
+    font-weight:500;
+}
