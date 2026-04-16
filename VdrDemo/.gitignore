@@ -51,22 +51,26 @@ ui_*.h
 # Build output directories
 # -----------------------------
 Debug/
-Release/
 Win32/Debug/
 x64/Debug/
 x64/Release/
 VdrDemo/Debug/
 VdrDemo/Release/
+/Release/
+
+# 先重新放开 Win32 和 Win32/Release 目录本身
+!Win32/
+!Win32/Release/
 
 # 默认忽略 Win32/Release 下所有内容
 Win32/Release/*
 
-# 但保留发布需要的文件
+# 放开发布需要的文件
 !Win32/Release/*.exe
 !Win32/Release/*.dll
 !Win32/Release/*.ini
 
-# 保留 Qt 插件目录
+# 放开插件目录本身和其中 dll
 !Win32/Release/platforms/
 !Win32/Release/platforms/*.dll
 
