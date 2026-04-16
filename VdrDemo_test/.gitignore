@@ -1,0 +1,81 @@
+# -----------------------------
+# OS / Editor noise
+# -----------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# -----------------------------
+# Visual Studio user/cache files
+# -----------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.ipch
+ipch/
+
+# -----------------------------
+# MSBuild / compiler intermediates
+# -----------------------------
+*.obj
+*.idb
+*.ilk
+*.pdb
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.manifest
+*.cache
+*.tmp
+*.log
+*.exp
+*.lib
+
+# -----------------------------
+# Qt generated files
+# -----------------------------
+GeneratedFiles/
+VdrDemo/GeneratedFiles/
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.pro.user.*
+*.qbs.user
+
+# -----------------------------
+# Build output directories
+# -----------------------------
+Debug/
+Win32/Debug/
+x64/Debug/
+x64/Release/
+VdrDemo/Debug/
+VdrDemo/Release/
+/Release/
+
+# 允许 Win32/Release 作为发布目录被跟踪
+!Win32/
+!Win32/Release/
+
+# 默认忽略 Win32/Release 下所有内容
+Win32/Release/*
+
+# 保留发布文件
+!Win32/Release/*.exe
+!Win32/Release/*.dll
+!Win32/Release/*.ini
+
+# 保留 Qt 插件目录
+!Win32/Release/platforms/
+!Win32/Release/platforms/*.dll
+
+# -----------------------------
+# Project runtime/output folders
+# -----------------------------
+VdrDemo/dll_log/
+VdrDemoOutput/
